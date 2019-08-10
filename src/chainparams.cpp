@@ -129,9 +129,9 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // PIVX: 1 day
         nTargetSpacing = 1 * 60;  // PIVX: 1 minute
-        nMaturity = 100;
+        nMaturity = 50;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 21000000 * COIN;
+        nMaxMoneyOut = 45000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 259200;
